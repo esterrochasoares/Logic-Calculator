@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logic Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Logic Calculator</h1>
+    <div id="menu">
+        <button><a href="Menu.html">About</a></button> <br>
+        <button><a href="Tables.html">Truth table</a></button> <br>
+    </div>
+    <div id="calculator">
+        <div class="operands">
+            <div data-operand-2>Example p^q</div>
+        </div>
+        <div class="btns"> 
+            <button data-propositions>p</button>
+            <button data-propositions>q</button>
+            <button data-propositions>r</button>
+            <button data-propositions>s</button>
+            <button data-propositions>~</button>
+            <button data-propositions>^</button>
+            <button data-propositions>v</button>
+            <button data-propositions>⊻</button>
+            <button data-propositions>→</button>
+            <button data-propositions>↔</button>
+            <button data-propositions>↓</button>
+            <button data-propositions>↑</button>
+            <button data-propositions>(</button>
+            <button data-propositions>)</button>
+            
+            <button data-clear>AC</button>
+            <button data-delete>DEL</button>
+            <button data-propositions>=</button>
+            
+        </div>
+        <audio id="click-sound" src="click-sound.wav" ></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

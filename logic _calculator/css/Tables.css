@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  color:#424242;
+  background-color: #5c9fe6;
+  font-family: "Orbitron", Courier, monospace;
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+    padding-top:25px;
+    text-decoration: bold;
+}
+#negacao h6{
+    text-align: center;
+}
+#negacao{
+    height: 80px;
+    width: 120px;
+}
+#menu {
+    margin-left: 30px;
+    gap: 30px;
+}
+#menu button{
+    padding: 3px;
+    background-color: #eff0db;
+    font-weight: bold;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #c9c9c9;
+    font-size: 25px;
+}
+#menu button a {
+    color: black;
+    text-decoration: none;
+}
+#content table tr td{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin: 60px auto;
+    padding: 30px 30px 0 30px;
+    text-decoration: bold;
+}
+#content{
+  margin: 60px auto;
+  padding: 30px 30px 0 30px;
+}
+#content {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
